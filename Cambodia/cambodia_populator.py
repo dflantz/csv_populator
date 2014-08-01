@@ -16,7 +16,7 @@ def populate(filepath_source, filepath_dest, output_name):
 		writer = csv.writer(f)
 		writer.writerows(list2)
 
-populate("/users/delantz/Downloads/cambodia_locations.csv", \
-	"/users/delantz/Downloads/cambodia_simple.csv", "cambodia_populated.csv")
+populate("/users/delantz/programming/aiddata/csv_populator/cambodia/cambodia_locations.csv", \
+	"/users/delantz/programming/aiddata/csv_populator/cambodia/cambodia_simple.csv", "cambodia_populated.csv")
 
 
